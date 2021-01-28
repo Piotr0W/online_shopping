@@ -1,0 +1,5 @@
+# Project exclude paths
+/cart-core/target/
+/cart-initializer/target/
+/cart-server/target/
+/cart-utils/target/

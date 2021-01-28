@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="cart-server" />
+        <module name="cart-utils" />
+        <module name="cart-initializer" />
+        <module name="cart-core" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="cart-core" target="11" />
+      <module name="cart-initializer" target="11" />
+      <module name="cart-server" target="11" />
+      <module name="cart-utils" target="11" />
+      <module name="online_shopping" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
